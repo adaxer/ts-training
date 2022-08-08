@@ -1,0 +1,1 @@
+export function random(start: number, end: number):number;

@@ -1,0 +1,31 @@
+/* Zähler zum automatischen Nummerieren der sichtbaren Folien */
+/* h3 {
+  counter-increment: slideNumber;  
+}
+h3::after {
+  content: " | Folie nr. " counter(slideNumber);
+  color: rgb(148, 147, 147);  
+} */
+
+/* Höhe von Folien: so hoch wie Bildschirmhöhe. Nicht in PDF */
+@media not print {
+  article {
+    min-height: 100vh;
+  }
+}
+
+/* Ausgeblendete Folien verstecken */
+.hidden {
+    display: none;
+}
+
+h3 {
+  margin-top: 3em;
+  margin-bottom: 2em;
+  padding-left: 3em;
+  padding-top: 1em;
+  height: 2em;
+  text-decoration: underline;
+  border-left: thick solid crimson;
+  border-top: thin solid crimson;
+}
