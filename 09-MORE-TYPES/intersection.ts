@@ -14,7 +14,9 @@ function destroyIfTooLong(obj: Destroyable & Lengthable): void { // INTERSECTION
     }
 }
 
+let both: Destroyable & Lengthable = { length: 1001, destroy: () => console.log("kaputt") };
 
+destroyIfTooLong(both);
 
 // An intersection type combines multiple types into one. 
 // This allows you to add together existing types to get a single type that has all the features you need. 

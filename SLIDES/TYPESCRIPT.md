@@ -1636,6 +1636,7 @@ http://www.typescriptlang.org/docs/handbook/advanced-types.html#index-types
 ### DECLARATIONS
 
 <http://definitelytyped.org/>
+Gutes Tutorial mit Video zum d.ts: <https://www.youtube.com/c/truejs/videos/>
 
 <!-- 
 DRAFT DECLARATION FILES

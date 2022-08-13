@@ -9,4 +9,4 @@ function getPerson(): {name: string, age: number} {
 }
 
 let person: {name: string, age: number} = getPerson();
-console.log(p.age);
+console.log(person.age);

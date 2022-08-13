@@ -10,7 +10,8 @@ interface Fish {
 function getSmallPet(): Fish | Bird {
   // ...
   let smallPet: Fish | Bird = {swim: () => {}, layEggs: () => {}}
-  return smallPet;
+  let otherPet: Bird = {fly: () => {}, layEggs: () => {}};
+  return otherPet;
 }
 
 

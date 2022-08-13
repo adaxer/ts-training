@@ -1,7 +1,11 @@
+let athervar: string;
+
+console.log();
+
 function zeigeNumber() {
     let dezimaleZahl: number = 1111;
     let str: string = String(dezimaleZahl);
-    document.getElementById("output1").textContent =  str;
+    // document.getElementById("output1").textContent =  str;
     // um diese Fehlermeldung zu beseitigen: Ausrufezeichen entfernt null-Wert und undefined von einem unions-Type
     // document.getElementById("output1")!.textContent =  str;
     let hexadezimaleZahl: number = 0x1111;

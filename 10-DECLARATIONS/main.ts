@@ -1,5 +1,5 @@
-import {random } from './rnd';
+import { randomNumber } from "./rnd";
 
-var n = random(1,4);
+var n = randomNumber(5,8);
 
 console.log(n);

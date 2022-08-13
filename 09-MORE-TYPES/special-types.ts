@@ -87,3 +87,6 @@ function infiniteLoop(): never {
     while (true) {
     }
 }
+
+let func: never = infiniteLoop();
+

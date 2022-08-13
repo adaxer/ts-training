@@ -17,3 +17,5 @@ console.log('x[1] :>> ', x[1]);
 
 let p: [number, string, boolean];
 p = [5, 'fünf', false];
+
+console.log("t is ", typeof t);

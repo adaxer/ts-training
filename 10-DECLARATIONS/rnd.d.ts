@@ -1,1 +1,1 @@
-export function random(start: number, end: number):number;
+export function randomNumber(start: number, end: number): number

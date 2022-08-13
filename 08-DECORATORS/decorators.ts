@@ -33,7 +33,6 @@ propertyDescriptor: PropertyDescriptor // Beschreibung der Methode
   function (...args: any[]) {
     // zum testen, dass es überhaupt funktioniert
     return `args vom Dekorator: ${args}`; // args - Parameter beim Aufrufen vom Dekorator
-
   }
 }
 

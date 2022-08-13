@@ -1,2 +1,3 @@
-export const random = (start, end) =>
-  (start + end) /2;
+export function randomNumber(start, end) {
+  return (start + end) /2;
+}

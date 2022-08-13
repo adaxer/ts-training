@@ -20,7 +20,7 @@ console.log('rw : ', rw);
 
 // Array-ähnliche Konstrukte in ein Array umwandeln (getestet nur in js)
         /* HTML COLLECTION TO ARRAY: */
-        console.log('document.images :', document.images);  
+        //console.log('document.images :', document.images);  
         // const allImg = [...document.images];
         // console.log('allImg :', allImg); // jetzt ist es ein array
         // const lastFive = document.images.slice(4,9)
@@ -47,3 +47,6 @@ let state: ReadonlyArray<string>;
 //     readonly [n: number]: T;
 //   }
 // https://mariusschulz.com/blog/read-only-properties-in-typescript
+
+console.log(typeof amounts);
+console.log(amounts instanceof Object); 

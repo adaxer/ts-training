@@ -13,10 +13,10 @@ let newString = myStringß.replace(/ß/g, 'ss')
 console.log('myStringß', myStringß)
 console.log('newString', newString)
 allTagsArr.forEach(element => {
-    let text = element.innerText
-    // console.log('text :>> ', text);
-    text = text.replace(/ß/g, 'ss')
-    element.innerText = text
+    let html = element.innerHTML;
+    console.log('text :>> ', html);
+    html = html.replace(/ß/g, 'ss')
+    element.innerHTML = html
 });
 
 allTagsHTMLColl = document.getElementsByTagName('*');

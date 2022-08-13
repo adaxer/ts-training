@@ -36,8 +36,8 @@ value = undefined;        // OK
 value = new TypeError();  // OK
 // value = Symbol("type");   // OK
 
-value.foo.bar;  // OK
-value.trim();   // OK
+// value.foo.bar;  // Runtime Error
+// value.trim();   // Runtime Error
 value();        // OK
 new value();    // OK
 value[0][1];    // OK
@@ -45,3 +45,5 @@ value[0][1];    // OK
 let str1: string = value; // OK
 
 }
+
+zeigeAny();

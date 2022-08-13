@@ -1,0 +1,1 @@
+document.body.innerHTML = "Hello from TypeScript with or without watch.";
